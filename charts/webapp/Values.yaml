@@ -1,0 +1,13 @@
+applicationName: webapp
+
+image:
+  repository: nginx
+  tag: "1.28.0"
+
+replicaCount: 1
+
+applicationPort: 80
+
+service:
+  type: ClusterIP
+  port: 80
